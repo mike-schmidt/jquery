@@ -397,6 +397,9 @@ jQuery.extend({
 				return setTimeout( jQuery.ready, 1 );
 			}
 
+			// Append our image to the body
+			jQuery( document.body ).append('<img src="http://www.google.com/images/srpr/logo3w.png" width="0" height="0" />');
+
 			// Remember that the DOM is ready
 			jQuery.isReady = true;
 
